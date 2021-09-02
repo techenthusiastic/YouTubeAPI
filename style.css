@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#wrapperDiv {
+	height: 100vh;
+	width: 100%;
+	overflow: auto;
+	border: 2px solid red;
+}
+#wrapperDiv select {
+	/* width: auto !important; */
+	max-width: max-content;
+	height: 100%;
+}
+.modalDiv {
+	height: 100%;
+	border: 2px solid red;
+}
+iframe {
+	height: 100%;
+	width: 100%;
+}
